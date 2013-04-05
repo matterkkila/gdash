@@ -1,4 +1,5 @@
 source 'http://rubygems.org'
+gem 'unicorn'
 gem 'sinatra'
 gem 'redcarpet'
 gem 'less'
