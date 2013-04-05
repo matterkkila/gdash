@@ -294,10 +294,17 @@ class GDash
     
       def fmt_for_select_date(date, default)
         result = ""
+        if ! (date =~ /\d{2}:\d{2}_\d{8}/)
+          return default
+        end
         if date.nil? 
           result = default
-        else 
-          result = DateTime.parse(date).strftime("%Y-%m-%d %H:%M")
+        else
+          begin
+            result = DateTime.parse(date).strftime("%Y-%m-%d %H:%M")
+          rescue
+            result = default
+          end
         end
         return result
       end

@@ -1,3 +1,9 @@
+gdash (1.0.0-rdio) unstable; urgency=low
+
+  * Bug fix
+
+ -- Matt Erkkila <matt.erkkila@rd.io>  Fri, 05 Apr 2013 12:00:00 -0700
+
 gdash (1.0.0-1) unstable; urgency=low
 
   * Initial release
