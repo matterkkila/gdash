@@ -1,0 +1,12 @@
+lib opt/gdash
+public opt/gdash
+tools opt/gdash
+vendor opt/gdash
+views opt/gdash
+.bundle opt/gdash
+config.ru opt/gdash
+gdash.gemspec opt/gdash
+Gemfile opt/gdash
+Gemfile.lock opt/gdash
+Rakefile opt/gdash
+README.md opt/gdash

@@ -1,0 +1,1 @@
+cd /opt/gdash && bundle install --binstubs --local --deployment

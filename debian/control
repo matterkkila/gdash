@@ -1,0 +1,12 @@
+Source: gdash
+Section: unknown
+Priority: extra
+Maintainer: Matt Erkkila <matt.erkkila@rd.io>
+Build-Depends: debhelper (>= 8.0.0), ruby-bundler
+Standards-Version: 3.9.2
+
+Package: gdash
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, ruby, ruby-bundler
+Description: gdash dashboard
+ gdash dashboard

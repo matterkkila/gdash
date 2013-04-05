@@ -1,2 +1,4 @@
+.bundle
 config/gdash.yaml
 graph_templates
+vendor
